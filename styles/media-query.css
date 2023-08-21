@@ -4,4 +4,8 @@
         width: 769px;
 
     }
+
+    section > img{
+        display: none;
+    }
 }
