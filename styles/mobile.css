@@ -30,6 +30,10 @@ section > img{
     border-radius: 0px 0px 15px 15px;
 }
 
+section > img#imgdesktop{
+   display: none; 
+}
+
 section > h1 {
     padding-top: 20px;
     padding-left: 15px;

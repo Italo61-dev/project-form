@@ -2,10 +2,21 @@
     section{
         background-color: blue;
         width: 769px;
+        height: 550px;
+        border-radius: 10px;
 
     }
 
     section > img{
         display: none;
+    }
+
+    section > img#imgdesktop{
+        display: flex;
+        float: right;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        
     }
 }
