@@ -47,16 +47,17 @@ p#one{
     padding: 15px;
 }
 
-p.verificado{
-    display: inline-block;
-    font-size: 1em;
-}
-
 span.material-symbols-outlined{
     padding: 10px;
     color: orangered;
 
 }
+
+p.verificado{
+    display: inline-block;
+    font-size: 1em;
+}
+
 
 #email{
     margin-top: 15px;
@@ -74,6 +75,7 @@ span.material-symbols-outlined{
     margin-top: 10px;
     border-radius: 5px;
     padding-left: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.603);
 }
 
 #botao{
@@ -89,4 +91,3 @@ span.material-symbols-outlined{
     font-weight: bold;
     font-size: 1em;
 }
-
