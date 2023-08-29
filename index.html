@@ -35,11 +35,13 @@
            <form action="cadastro.php" method="post">
 
                 <div id="email">
-                    <label for="iemail">Email address</label>
+                    <label for="iemail">Email address</label><h3 id="erroEmail"></h3>
                 </div>
+
                 <div>
                     <h3 id="msgErro"></h3>
                 </div>
+
                 <div id="container">
                     <input type="email" name="email" id="iemail" placeholder="email@company.com">
                 </div>
@@ -53,7 +55,8 @@
     </main>
 
     <script>
-        document.getElementById("msgErro")
+       var erroEmail = document.getElementById("erroEmail");
+       
     </script>
 </body>
 </html>
