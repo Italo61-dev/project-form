@@ -91,3 +91,8 @@ p.verificado{
     font-weight: bold;
     font-size: 1em;
 }
+
+.erro-mensagem {
+    color: red;
+    display: block;
+}
